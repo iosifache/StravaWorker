@@ -2,7 +2,7 @@
 
 ## Description :framed_picture:
 
-**Strava Activities Renamer** is a `Python` script for dumping all Strava activities to file, in `CSV` format, and (after editing the available property fields, that are listed in the table below) printing or updating them automatically.
+**Strava Activities Renamer** is a `Python 3` script for dumping all Strava activities to file, in `CSV` format, and (after editing the available property fields, that are listed in the table below) printing or updating them automatically.
 
 | Property     | Possible Actions       | 
 |--------------|------------------------|
@@ -13,7 +13,7 @@
 ## Setup :wrench:
 
 1. **clone** this repository
-2. **install** Python 3 dependencies: `pip3 install -r requirements.txt`
+2. **install** `Python 3` dependencies: `pip3 install -r requirements.txt`
 3. **create** a new Strava application, from the "*My API Application*" tab from *Settings*
 4. **get** the client ID (referred to as `CLIENT_ID`) and secret (referred to as `CLIENT_SECRET`), from the same Strava page
 
@@ -55,7 +55,7 @@ ID,Name,Distance,Type,Workout type,Start date,Was manually added,Is private,Gear
 ```
 
 6. **copy** the output file: `cp OUTPUT_FILENAME COPIED_FILENAME`
-7. **edit** the activities in the copy with a CSV editor
+7. **edit** the activities in the copy with a `CSV` editor
 8. **print** or **update** the changes
 
 ```
